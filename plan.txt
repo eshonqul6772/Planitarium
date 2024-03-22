@@ -1,0 +1,88 @@
+QUYOSH
+Tashkil topgan modda: Vodorod, Geliy
+Temperatura: 5700 C
+Massa: 1.989 e30 kg
+Diametr: 1392700 km
+Sayyoralari: 9 ta
+
+Merkuriy
+Quyoshgacha masofa: 58 million kilometr
+Diametr: 4879 km
+Yil davomiyligi: 88 sutka
+Sutka davomiyligi: 176 Sutka
+Yo’ldoshlari: yo’q
+Temperatura: +430 C va -190 C
+Tartib raqami: 1
+
+Venera
+Quyoshgacha masofa: 108 million kilometr
+Diametr: 12100 km
+Yil davomiyligi: 225 sutka
+Sutka davomiyligi: 243 sutka
+Yo’ldoshlari: yo’q
+Temperatura: 480C
+Tartib raqami” 2
+
+Yer
+Quyoshgacha masofa: 150 million kilometr
+Diametr: 12756 km
+Yil davomiyligi: 365 sutka
+Sutka davomiyligi: 24 soat
+Yo’ldoshlari: Oy
+Temperatura: 40-50 C
+Tartib raqami: 3
+
+Mars
+Quyoshgacha masofa: 228 million kilometr
+Diametr: 6792 km
+Yil davomiyligi: 687 sutka
+Sutka davomiyligi: 24.6 soat
+Yo’ldoshlari: Fobos, Deymos
+Temperatura: 0 C
+Tartib raqami: 4
+
+Yupiter
+Quyoshgacha masofa: 778,5 million kilometr
+Diametr: 142984 km
+Yil davomiyligi: 11.6 yil
+Sutka davomiyligi: 10 soat
+Yo’ldoshlari: Io, Yevropa, Ganimed, Kallisto, Metida va yana 74 ta osmon jismi
+Temperatura: -107C – 153C
+Tartib raqami: 5
+
+Saturn
+Quyoshgacha masofa: 1427 million kilometr
+Diametr: 120420 km
+Yil davomiyligi: 29.5 yil
+Sutka davomiyligi: 10.5 soat
+Yo’ldoshlari: Titan, Reya, Enselad va yana 79 ta osmon jismi
+Temperatura: -55C
+Tartib raqami: 6
+
+Uran
+Quyoshgacha masofa: 2860 million kilometr
+Diametr: 51300 km
+Yil davomiyligi: 84 yil
+Sutka davomiyligi: 17.2 soat
+Yo’ldoshlari: Miranda, Ariel, Umbriel, Titaniya, Oberon va yana 22 ta osmon jismi
+Temperatura: -224C
+Tartib raqami: 7
+
+Neptun
+Quyoshgacha masofa: 4500 million kilometr
+Diametr: 49500 km
+Yil davomiyligi: 165 yil
+Sutka davomiyligi: 18 soat
+Yo’ldoshlari: Triton, Nereida, Protey va yana 11 ta osmon jismi
+Temperatura: -214 C
+Tartib raqami: 8
+
+Pluton
+Quyoshgacha masofa: 5900 million kilometr
+Diametr: 2376 km
+Yil davomiyligi: 248 yil
+Sutka davomiyligi: 6.4 soat
+Yo’ldoshlari: Xaron, Stiks, Nikta, Kerber, Gidra
+Temperatura: -226 C
+Tartib raqami: 9
+

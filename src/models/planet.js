@@ -33,6 +33,11 @@ const planetSchema = new mongoose.Schema({
         require: true
     },
 
+    adminStatus:{
+        type: Boolean,
+        default: false
+    },
+
     satellites: {
         type: String,
         require: true

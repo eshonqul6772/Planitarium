@@ -24,12 +24,15 @@ exports.getAllStar = asyncHandler(async (req, res, next) => {
     res.status(200).json({
         success: true, data: starts
     })
-
 });
 
 
 exports.getStarById = asyncHandler(async (req, res, next) => {
-    const star = await Star.findById(req.body.id);
+    const star = await Star.findById(req.params.id);
+
+    console.log(star)
+
+
 
     res.status(200).json({
         success: true, data: star

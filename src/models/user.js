@@ -59,10 +59,14 @@ userSchema.methods.checkPassword = async function(password){
 
 
 userSchema.methods.generateJwtToken = function(){
-    return jwt.sign({id:this._id, email:this.email}, process.env.JWT_TOKEN,  {
+    return jwt.sign({id:this._id, email:this.email}, process.env.JWT_TOKEN_SECRET,  {
         expiresIn: process.env.JWT_EXPIRE 
     })
 }
+
+userSchema.methods.matchPassword = async function(enteredPassword){
+    return await bcrypt.compare(enteredPassword, this.password)
+  }
 
 
 module.exports = mongoose.model('User',  userSchema)

@@ -1,28 +1,28 @@
-const express =require ('express');
+const path  =require('path');
+const cors = require('cors');
 const dotenv =require ('dotenv');
 const morgan =require ('morgan');
-const path  =require('path')
-const  Color =require ('colors');
+const  colors =require ('colors');
+const express =require ('express');
 
-const errorHandler = require("./src/middlewares/error")
+const errorHandler = require("./middlewares/error.js");
 
-const connectDB =require ('./src/config/db.js');
-
+const connectDB =require ('./config/db.js');
 
 const app = express();
 
-dotenv.config();
 
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
-app.use('/api/v1/auth', require('./src/routes/auth.js'));
-app.use('/api/v1/star', require('./src/routes/star.js'));
-app.use('/api/v1/planet', require('./src/routes/planet.js'));
+app.use('/api/v1/auth', require('./routes/auth.js'));
+app.use('/api/v1/star', require('./routes/star.js'));
+app.use('/api/v1/planet', require('./routes/planet.js'));
 
-app.use(express.static(path.join(__dirname, 'public')));
+dotenv.config();
 app.use(errorHandler);
-
+app.use(express.static(path.join(__dirname, 'public')));
 
 if(process.env.NODE_ENV === 'development'){
     app.use(morgan('dev'));

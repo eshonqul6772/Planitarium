@@ -27,6 +27,7 @@ exports.createPlanet = asyncHandler(async (req, res, next) => {
         image: 'uploads/' + req.file.filename,
         star: star._id,
     });
+    console.log(req.file)
 
     await Star.findOneAndUpdate({ name: req.body.star },
         {
@@ -51,7 +52,7 @@ exports.getStarById = asyncHandler(async (req, res, next) => {
 });
 
 exports.updatePlanet = asyncHandler(async (req, res, next) => {
-    const planet = await Planet.findById(req.body.id)
+    const planet = await Planet.findById(req.params.id)
 
     const editPlanet = {
         distanceToStar: req.body.distanceToStar || planet.distanceToStar,
